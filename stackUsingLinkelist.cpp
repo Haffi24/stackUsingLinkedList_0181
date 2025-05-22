@@ -3,12 +3,12 @@
 using namespace std;
 
 //node class representating a single node in the linked list
-class node{
+class Node{
     public:
     int data;
-    node* next;
+    Node* next;
 
-    node(){
-        
+    Node(){
+    next = NULL;
     }
-}
+};
